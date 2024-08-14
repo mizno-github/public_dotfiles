@@ -1,0 +1,76 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+
+    // 編集が終わった３秒後に保存する
+    "files.autoSaveDelay": 0,
+
+    // 空白を標示するために必要？
+    "editor.accessibilitySupport": "off",
+
+    // 改行コードの初期値
+    "files.eol": "\n",
+
+    // 既定のターミナル
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+
+    // ssh関連
+    "remote.SSH.remotePlatform": {
+        "localhost": "windows"
+    },
+
+    // パラメータのヒント系を非表示にする
+    "editor.parameterHints.cycle": false,
+    "editor.parameterHints.enabled": false,
+
+    // エメットの標示をエンターからtabキーに変更
+    "emmet.includeLanguages": {
+        "vue": "html,javascript,vue-html,vue",
+    },
+
+    // 拡張機能「gutterpreview」で画像の場所を指定する
+    "gutterpreview.sourceFolder": "public",
+
+    // 開始タグと終了タグを自動的に変更する
+    "editor.linkedEditing": true,
+
+    // 拡張機能「IntelliSense for CSS class names」でscssでもemmetの候補が出るようにする
+    "html-css-class-completion.enableEmmetSupport": true,
+    "html-css-class-completion.includeGlobPattern": "**/*.{css,scss,html}",
+
+    "markdown.validate.unusedLinkDefinitions.enabled": "error",
+
+    // editorのtabサイズの規定値
+    "editor.tabSize": 2,
+    "[vue]": {
+        "editor.tabSize": 2
+    },
+
+    // インテリセンスのwordsを消す
+    "editor.suggest.showWords": false,
+
+    // snippetのサジェストを最初に出す。
+    "editor.snippetSuggestions": "top",
+
+    // emmetの候補の初期値を最後に利用したものにする
+    "editor.suggestSelection": "recentlyUsedByPrefix",
+
+    // wordにホバー時のヒントが10秒後に表示される
+    "editor.hover.delay": 10000,
+
+    // emmet欄の色々を消してくれる
+    "outline.showVariables": false,
+    "breadcrumbs.showVariables": false,
+    "editor.suggest.showVariables": false,
+
+    // refに自動的に.valueを付けてくれる
+    "vue.autoInsert.dotValue": true,
+    "files.associations": {
+        "*.vue": "vue",
+        "*.css": "tailwindcss",
+    },
+    "window.zoomLevel": -1,
+    "files.autoSave": "onFocusChange",
+    "workbench.startupEditor": "none",
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "explorer.confirmDelete": false,
+}
