@@ -1,6 +1,6 @@
+#  ln -s ~/work/public_dotfiles/.vimrc ~/.vimrc
 set number
 inoremap jj <esc>
-nnoremap ff <C-w>
 
 # tab関連を,と何かでできるようにする
 let mapleader=","
@@ -17,3 +17,4 @@ set nocompatible
 
 # タブサイズ
 set tabstop=2
+
