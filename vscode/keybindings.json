@@ -1,0 +1,183 @@
+// 既定値を上書きするには、このファイル内にキー バインドを挿入します
+[
+  {
+    "key": "shift+cmd+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus && !editorReadonly && isMac"
+  },
+  {
+    "key": "shift+ctrl+j",
+    "command": "editor.action.joinLines",
+    "when": "editorTextFocus && !editorReadonly && isWindows"
+  },
+  {
+    "key": "ctrl+j",
+    "command": "-editor.action.joinLines",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "editor.action.goToTopHover",
+    "when": "editorHoverFocused && isMac"
+  },
+  {
+    "key": "ctrl+ctrl+up",
+    "command": "editor.action.goToTopHover",
+    "when": "editorHoverFocused && isWindows"
+  },
+  {
+    "key": "cmd+up",
+    "command": "-editor.action.goToTopHover",
+    "when": "editorHoverFocused && isMac"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "-editor.action.goToTopHover",
+    "when": "editorHoverFocused && isWindows"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "editor.action.goToBottomHover",
+    "when": "editorHoverFocused && isMac"
+  },
+  {
+    "key": "ctrl+ctrl+down",
+    "command": "editor.action.goToBottomHover",
+    "when": "editorHoverFocused && isWindows"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-editor.action.goToBottomHover",
+    "when": "editorHoverFocused && isMac"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-editor.action.goToBottomHover",
+    "when": "editorHoverFocused && isWindows"
+  },
+  {
+    "key": "ctrl+cmd+up",
+    "command": "cursorTop",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "ctrl+ctrl+up",
+    "command": "cursorTop",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "cmd+up",
+    "command": "-cursorTop",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "ctrl+up",
+    "command": "-cursorTop",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "ctrl+cmd+down",
+    "command": "cursorBottom",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "ctrl+ctrl+down",
+    "command": "cursorBottom",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "cmd+down",
+    "command": "-cursorBottom",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "ctrl+down",
+    "command": "-cursorBottom",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "shift+cmd+right",
+    "command": "cursorWordEndRightSelect",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "shift+ctrl+right",
+    "command": "cursorWordEndRightSelect",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "shift+alt+right",
+    "command": "-cursorWordEndRightSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+left",
+    "command": "cursorWordLeftSelect",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "shift+ctrl+left",
+    "command": "cursorWordLeftSelect",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "shift+alt+left",
+    "command": "-cursorWordLeftSelect",
+    "when": "textInputFocus"
+  },
+  {
+    "key": "shift+cmd+,",
+    "command": "workbench.action.quickchat.toggle",
+    "when": "chatIsEnabled && isMac"
+  },
+  {
+    "key": "shift+ctrl+,",
+    "command": "workbench.action.quickchat.toggle",
+    "when": "chatIsEnabled && isWindows"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "-workbench.action.quickchat.toggle",
+    "when": "chatIsEnabled && isMac"
+  },
+  {
+    "key": "shift+ctrl+i",
+    "command": "-workbench.action.quickchat.toggle",
+    "when": "chatIsEnabled && isWindows"
+  },
+  {
+    "key": "shift+cmd+i",
+    "command": "cursorEnd",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "shift+ctrl+i",
+    "command": "cursorEnd",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "cmd+right",
+    "command": "-cursorEnd",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "ctrl+right",
+    "command": "-cursorEnd",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "shift+cmd+a",
+    "command": "cursorHome",
+    "when": "textInputFocus && isMac"
+  },
+  {
+    "key": "shift+ctrl+a",
+    "command": "cursorHome",
+    "when": "textInputFocus && isWindows"
+  },
+  {
+    "key": "home",
+    "command": "-cursorHome",
+    "when": "textInputFocus"
+  }
+]
